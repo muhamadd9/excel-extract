@@ -295,7 +295,7 @@ const Home = () => {
                         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
                             <div className="space-y-3 max-w-3xl">
                                 <p className="text-xs uppercase tracking-[0.45em] text-white/70">لوحة البيانات</p>
-                                <h2 className="text-2xl md:text-3xl font-bold">استعرض وقارن ملفات Excel بثقة</h2>
+                                <h2 className="text-2xl md:text-3xl font-bold">قاعدة بيانات وحدة التصنيفات العالمية - جامعة الملك فيصل</h2>
                                 <p className="text-sm text-white/90 leading-relaxed">
                                     اختر ملفاتك، قارن البيانات رقمياً، وشارك النتائج مع فريقك من خلال تجربة تفاعلية مبسطة
                                     ومصممة بعناية.
