@@ -191,8 +191,8 @@ const Home = () => {
     const formattedSelectedRows = totalSelectedRows.toLocaleString('ar');
 
     const downloadChart = async (chartId: string, label: string) => {
-        if (selectedFiles.length < 2) {
-            toast.error('يرجى اختيار ملفين على الأقل للمقارنة');
+        if (selectedFiles.length < 1) {
+            toast.error('يرجى اختيار ملف واحد على الأقل');
             return;
         }
 
@@ -545,7 +545,7 @@ const Home = () => {
                 </div>
 
                 {/* Per-file Charts */}
-                {selectedFiles.length >= 2 && (
+                {selectedFiles.length >= 1 && (
                     <div className="space-y-4">
                         <div className="flex flex-wrap items-center justify-between gap-3">
                             <div>
